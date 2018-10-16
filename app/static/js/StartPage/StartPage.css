@@ -1,0 +1,26 @@
+.stfName{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 3.25em;
+}
+.stfRow{
+    margin: 20px auto 0 auto;
+    width: 40%;
+}
+.rowText{
+    text-align: center;
+}
+.href{
+    font-size: 1.15em;
+    color: #343A40;
+}
+.href:hover{
+    color: #007BFF;
+}
+.MainLogo{
+    height: 190px;
+    width: 440px;
+    background: url('./CTFSquad.jpg');
+    background-size: contain;
+    margin: 11% auto -20px;
+}

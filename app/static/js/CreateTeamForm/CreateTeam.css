@@ -1,0 +1,18 @@
+.team{
+    width: 50%;
+    margin: 0 auto;
+}
+.create{
+    text-align: center;
+}
+.text{
+    resize: none;
+}
+.create{
+    width: auto;
+    text-align: center;
+}
+.createBtn{
+    padding: 1% 2%;
+    font-size: 1.05em;
+}

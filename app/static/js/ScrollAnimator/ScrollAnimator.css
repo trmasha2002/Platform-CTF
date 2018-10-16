@@ -1,0 +1,8 @@
+.test-transition{
+    transform: translateX(300px);
+}
+.test-position{
+    transform: 0;
+    margin: 20px 0;
+    transition: ease-in-out 1s;
+}

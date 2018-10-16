@@ -1,0 +1,21 @@
+.lol{
+    background: #AAA no-repeat 50%/cover;
+    height: 200px;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+.event-card{
+    flex-direction: column;
+}
+.d-block{
+    display: block;
+}
+@media(min-width: 768px){
+    .lol{
+        border-bottom-left-radius: calc(0.25rem - 1px);
+        border-top-right-radius: 0;
+    }
+    .event-card{
+        flex-direction: row;
+    }
+}

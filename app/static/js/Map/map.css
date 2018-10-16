@@ -1,0 +1,56 @@
+#map
+{
+    height: calc(100vh - 56px);
+    background: url('Rolling-1s-144px.svg') no-repeat center;
+    z-index: -1000;
+}
+
+.map-button
+{
+    cursor: pointer;
+    box-shadow: 0 1px 2px 1px rgba(0,0,0,.15), 0 2px 5px -3px rgba(0,0,0,.15);
+    border-radius: 3px;
+    width: 87px;
+    height: 28px;
+    font-size: 13px;
+    line-height: 26px;
+    padding: 0 0 0 27px;
+    background-image: url('noun_1394617_cc.svg');
+    background-repeat: no-repeat;
+    background-position-y: 3px;
+    margin-right: 42px;
+    background-color: #fff;
+}
+
+.background-orange
+{
+    background-color: #ffeba0;
+}
+
+.range-block
+{
+    background-color: #fff;
+    padding: 6px;
+}
+
+.range-block::after {
+        content: '';
+    position: absolute;
+    right: 3px;
+    top: -20px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid white;
+   }
+
+.hide
+{
+    display: none;
+}
+
+.output-radius
+{
+    font-size: 12px;
+    margin-left: 4px;
+    line-height: 15px
+;
+}

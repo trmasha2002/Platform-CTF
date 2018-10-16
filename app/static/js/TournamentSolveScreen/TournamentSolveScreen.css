@@ -1,0 +1,44 @@
+.left-column{
+    width: calc( 100% - 300px );
+}
+.right-column{
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+
+}
+.allow-scroll-x{
+    overflow-x:auto;
+}
+.disallow-scroll-x{
+    overflow-x: hidden;
+}
+.no-text-decoration {
+    color: #333;
+    text-decoration: none !important;
+}
+.task-card h1, .task-card h2, .task-card h3, .task-card h4, .task-card h5, .task-card h6{
+    text-align: center;
+}
+.task-card{
+    background: linear-gradient(180deg, #e0e0e0, #fff);
+    color: #333;
+    text-decoration: none !important;
+}
+.task-card:hover{
+    background: linear-gradient(180deg, #00D9FF, #66F4FF);
+}
+.task-card.solved{
+     background: linear-gradient(180deg, #387F00, #59CC00);
+ }
+ .task-card.solved:hover{
+    background: linear-gradient(180deg, hsl(94, 99%, 35%), hsl(94, 98%, 49%));
+}
+.task-card.errored{
+    background: linear-gradient(180deg, #CC210F, #FF2913);
+}
+.task-card.errored:hover{
+    background: linear-gradient(180deg, rgb(224, 38, 17), rgb(255, 73, 53));
+}

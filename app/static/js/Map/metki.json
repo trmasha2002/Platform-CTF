@@ -1,0 +1,14 @@
+[{
+  "geometry": {
+    "coordinates": [55.733972, 37.588517]
+  },
+  "properties": {
+    "balloonContentHeader": "Балун метки",
+    "balloonContentBody": "Содержимое <em>балуна</em> метки",
+    "balloonContentFooter": "Подвал",
+    "hintContent": "Хинт метки"
+  },
+  "options": {
+    "preset" : "islands#circleIcon"
+  }
+}]

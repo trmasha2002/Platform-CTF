@@ -1,0 +1,61 @@
+.nav-colorise {
+    background: #00EDE0;
+    color: #7492c7;
+}
+.nav-colorise .navbar-brand{
+    color: hsl(218, 34%, 41%);
+}
+.btn-outline-purple{
+    border-color: hsl(218, 34%, 41%);
+    color: hsl(218, 34%, 41%);
+}
+.btn-outline-purple:hover{
+    color: #fff;
+    background-color: hsl(218, 34%, 41%);
+    border-color: hsl(218, 34%, 41%);
+}
+.btn-outline-purple:not(:disabled):not(.disabled):active{
+    color: #fff;
+    border-color: hsl(218, 34%, 41%);
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    background-color: #7492c7;
+}
+.btn-outline-purple:focus{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.none {
+    display: none !important;
+}
+.btn-orange{
+    background-color: #FFE000;
+    color: hsl(218, 34%, 41%);
+}
+.btn-success{
+    background: #41D900!important;
+    border-color: none !important;
+}
+
+.dropdown-menu
+{
+    min-width: 130px;
+    padding: 0;
+    left: -102%;
+}
+
+.btn-menu
+{
+    min-width: 130px;
+}
+
+.navbar
+{
+    z-index: 9999;
+}
+
+.fa-user
+{
+    margin-top: 4px;
+    margin-left: 11px;
+}

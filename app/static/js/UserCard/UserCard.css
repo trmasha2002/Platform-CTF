@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption');
+ /* .navbar{
+    background-color: 	#333399;
+    background: rgb(32,124,229);
+    background: -webkit-linear-gradient(left, rgba(32,124,229,1) 0%,rgba(73,155,234,1) 87%,rgba(73,155,234,1) 100%); 
+    z-index: 100;
+    margin-bottom: 3%;
+}
+.navbar-brand{
+    font-size: 24px;
+}  */
+
+form .btn{  
+    margin: 0 5px;
+    box-shadow: 14px 9px 34px -8px rgba(0,0,0,0.75);
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+
+@media screen and (max-width: 1025px) {
+    .rounded-circle{
+        height: 150px;
+        width: 150px;
+        margin-top: 25px;
+    }
+    .name{
+        font-size: 2.9em !important;
+        margin: 4% 19% !important;
+    }
+    .rating{
+        font-size: 1.1em !important;
+    }
+    .good{
+        margin-left: 13% !important;
+    }
+    .bad{
+        margin-left: 10% !important;
+    }
+    .messageBtn{
+        margin: 55px 1% !important;
+    }
+    .information{
+        margin-right: 0.5% !important;
+    }
+    #about{
+        margin: 29.5% 3.5% !important;
+    }
+}
+@media screen and (max-width: 769px) {
+    .name{
+        width: 90% !important;
+        font-size: 2.5em !important;
+    }
+}
+@media screen and (max-width: 1200px){
+    .rounded-circle{
+        height: 180px !important;
+        width: 180px !important;
+        margin-top: 15px !important;
+    }
+    .name{
+        margin: 4.5% 22% !important;
+        font-size: 2.8em !important;
+    }
+    .description{
+        margin: 12% 24.3% !important;
+        font-size: 1em !important;
+    }
+    .rating{
+        font-size: 1.15em !important;
+    }
+    .good{
+        margin-left: 17.5% !important;
+    }
+    .bad{
+        margin-left: 13% !important;
+    }
+    #about{
+        margin: 29.5% 4% !important;
+    }
+
+}
+@media screen and (max-width: 377px){
+    .container{
+        padding: 0 !important;
+    }
+    .rounded-circle{
+        height: 110px !important;
+        width: 110px !important;
+        margin-top: 48px !important;
+        margin-left: -7% !important;
+    }
+    .name{
+        font-size: 1.25em !important;
+        margin: 20% 31% !important; 
+        text-shadow: 
+        -0   -2px 0   #000000,
+        0   -2px 0   #000000,
+       -0    2px 0   #000000,
+        0    2px 0   #000000,
+       -2px -0   0   #000000,
+        2px -0   0   #000000,
+       -2px  0   0   #000000,
+        2px  0   0   #000000,
+       -1px -2px 0   #000000,
+        1px -2px 0   #000000,
+       -1px  2px 0   #000000,
+        1px  2px 0   #000000,
+       -2px -1px 0   #000000,
+        2px -1px 0   #000000,
+       -2px  1px 0   #000000,
+        2px  1px 0   #000000,
+       -2px -2px 0   #000000,
+        2px -2px 0   #000000,
+       -2px  2px 0   #000000,
+        2px  2px 0   #000000,
+       -2px -2px 0   #000000,
+        2px -2px 0   #000000,
+       -2px  2px 0   #000000,
+        2px  2px 0   #000000 !important;
+    }
+    .rating{
+        font-size: 0.9em !important;
+    }
+    .good{
+        margin-left: 4% !important;
+    }
+    .bad{
+        margin-left: 2% !important;
+    }
+    .description{
+        margin: 30% 36% !important;
+        font-size: 0.9em !important;
+        width: 120px !important;
+    }
+    .messageBtn{
+        margin: 31% -2% !important;
+    }
+    .messageBtn .btn{
+        padding: 3px !important;
+        font-size: 0.97em !important;
+        border: 1px solid #333399;
+    }
+    .information{
+        margin: 10% 0% !important;
+        right: 0 !important;
+    }
+    .information .btn {
+        padding: 3px !important;
+        font-size: 0.97em !important;
+    }
+    
+    #about{
+        position: relative !important;
+        margin: -5% 7% 7% 7% !important;
+        font-size: 0.9em !important;
+    }
+    #main-card{
+        height: auto !important;
+        padding-bottom: 25% !important;
+    }
+}
+.main{
+    position: relative;
+    z-index: 1;
+}
+#main-card{
+    position: relative;
+    height: auto;
+    width: 100%;
+    padding-bottom: 2%;
+}
+.rounded{
+    position: relative;
+}
+.rounded-circle{
+    position: relative;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+.content{
+    position: relative;
+    margin: -100px 20px;
+}
+.messageBtn{
+    position: absolute;
+    right: 0;
+    margin: 55px 20px;
+}
+.messageBtn .btn{
+    color: #333399;
+    font-weight: bold;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+.name{
+    position: absolute;
+    width: 50%;
+    left: 0px;
+    right: 0;
+    margin: 2.5% 21%;
+    font-size: 3.13em;
+    color: white;
+    font-weight: bold;
+    font-family: 'PT Sans Caption', sans-serif;
+    text-shadow: 
+		-0   -2px 1px #000000,
+		 0   -2px 1px #000000,
+		-0    2px 1px #000000,
+		 0    2px 1px #000000,
+		-2px -0   1px #000000,
+		 2px -0   1px #000000,
+		-2px  0   1px #000000,
+		 2px  0   1px #000000,
+		-1px -2px 1px #000000,
+		 1px -2px 1px #000000,
+		-1px  2px 1px #000000,
+		 1px  2px 1px #000000,
+		-2px -1px 1px #000000,
+		 2px -1px 1px #000000,
+		-2px  1px 1px #000000,
+		 2px  1px 1px #000000,
+		-2px -2px 1px #000000,
+		 2px -2px 1px #000000,
+		-2px  2px 1px #000000,
+		 2px  2px 1px #000000,
+		-2px -2px 1px #000000,
+		 2px -2px 1px #000000,
+		-2px  2px 1px #000000,
+		 2px  2px 1px #000000;
+}
+.description{
+    position: absolute;
+    width: 500px;
+    margin: 105px 23%;
+    text-align: justify;
+    font-family: 'PT Sans Caption', sans-serif;
+    
+}
+.rating{
+    position: relative;
+    margin-top: 1%;
+    width: 250px;
+    font-size: 1.25em;
+    color: #333399;
+}
+.good{
+    position: relative;
+    display: inline-block;
+    margin-left: 21%;
+    text-align: center;
+    padding-right: 5px;
+}
+.bad{
+    position: relative;
+    display: inline-block;
+    margin-left: 13%;
+    text-align: center;
+    padding-right: 5px;
+}
+.information{
+    position: relative;
+    right: 0;
+    margin: 210px 15px;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: bold;
+}
+.information .btn{
+    margin: 0 5px;
+}
+#about{
+    position: absolute;
+    margin: 25% 3.5%;
+    width: 95%;
+    height: auto;
+    font-family: 'PT Sans Caption', sans-serif;
+}
