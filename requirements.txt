@@ -1,7 +1,6 @@
 Flask==0.12.1
 Flask-WTF==0.14.2
 Flask-SQLAlchemy==2.3.2
-Flask-Mail
 Flask-Testing
 passlib
 flask-cors
@@ -11,3 +10,4 @@ marshmallow-polyfield==3.2
 flask-admin
 requests
 flask-socketio
+Flask-mail
